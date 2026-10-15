@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "collector": "GG Endpoint Hardening Auditor",
+  "collected_utc": "2026-10-15T12:00:00Z",
+  "host": "LAB-WIN01",
+  "checks": [
+    {
+      "name": "Windows Firewall",
+      "status": "conforme",
+      "detail": "Exemplo fictício"
+    },
+    {
+      "name": "BitLocker",
+      "status": "atencao",
+      "detail": "Exemplo fictício"
+    },
+    {
+      "name": "SMBv1",
+      "status": "conforme",
+      "detail": "Exemplo fictício"
+    }
+  ]
+}
