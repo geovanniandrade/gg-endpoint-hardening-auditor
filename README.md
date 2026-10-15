@@ -8,7 +8,13 @@ Auditoria defensiva de configurações de segurança do Windows.
 
 Firewall, BitLocker, SMBv1, RDP e versão do Windows.
 
-## 🚀 Como utilizar
+## 🧭 Modos de utilização
+
+**🧪 Demonstração:** utilize **Carregar exemplo fictício** na interface. Não requer executar PowerShell.
+
+**🏢 Corporativo:** a coleta exige autorização e método de execução aprovado. O script atual é **não assinado**; não altere políticas de PowerShell nem remova marca de origem para contornar controles. Revise o código e homologue a distribuição antes de usá-lo em endpoints corporativos.
+
+## 🚀 Como utilizar (apenas em ambiente autorizado)
 
 1. Baixe e revise o [script PowerShell Collect-Hardening.ps1](collector/Collect-Hardening.ps1) ([download direto](https://raw.githubusercontent.com/geovanniandrade/gg-endpoint-hardening-auditor/main/collector/Collect-Hardening.ps1)).
 2. Salve como `Collect-Hardening.ps1` na pasta **Downloads** do Windows.
